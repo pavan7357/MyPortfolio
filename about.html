@@ -4,40 +4,106 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About Me - Pavan Guthikonda</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    header {
+      background: #2a3f7d;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 0 0 10px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-top: 2rem;
+    }
+
+    section h2 {
+      color: #2a3f7d;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      line-height: 1.6;
+      margin-bottom: 1.2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #2a3f7d;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #1e2d5c;
+    }
+  </style>
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <h2>Pavan<br>Guthikonda</h2>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About Me</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </aside>
+  <header>
+    <h1>Pavan Guthikonda</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <main class="main-content">
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          I’m a results-driven graduate student pursuing an MS in Data Science at the University of Missouri – Kansas City, passionate about transforming data into actionable insights. With hands-on experience in software development, machine learning, and cloud deployment, I blend technical skills with analytical thinking to deliver value in real-world business and healthcare domains.
-        </p>
-
-        <p>
-          My experience spans working as a Software Engineer and Analyst Intern, leading initiatives in data engineering, microservices, and AI model integration. I enjoy building tools and applications that solve problems, especially those related to finance, healthcare, and smart automation.
-        </p>
-
-        <p>
-          When I’m not coding or analyzing datasets, I enjoy exploring generative AI tools, writing technical content, and mentoring peers on cloud & data tools.
-        </p>
-
-        <a href="resume.pdf" class="btn" target="_blank">View My Resume</a>
-      </section>
-    </main>
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I’m Pavan Sundar Reddy Guthikonda, a graduate student pursuing my MS in Data Science at the University of Missouri – Kansas City. I’m passionate about uncovering insights through data and applying modern machine learning techniques to solve real-world problems.
+      </p>
+      <p>
+        I’ve worked in fast-paced engineering and analytics teams, building tools for healthcare, finance, and enterprise systems. My skills include Python, SQL, cloud platforms (AWS, Azure), and experience with ETL pipelines, RESTful APIs, and data visualizations.
+      </p>
+      <p>
+        Outside of work, I enjoy building AI-driven apps, contributing to open-source projects, and mentoring students interested in data and cloud careers.
+      </p>
+      <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
+    </section>
   </div>
 </body>
 </html>
