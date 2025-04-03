@@ -1,185 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pavan Sundar Reddy Guthikonda | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            line-height: 1.6;
-            background: #f4f4f4;
-        }
-        header {
-            background: #1e1e2f;
-            color: #fff;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.8rem;
-            margin: 0;
-        }
-        header p {
-            margin: 0.7rem 0;
-            font-size: 1.1rem;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #f4f4f4;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-        nav ul li a:hover {
-            color: #00bcd4;
-        }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-            background: #fff;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #1e1e2f;
-            border-bottom: 2px solid #00bcd4;
-            padding-bottom: 0.5rem;
-        }
-        .btn {
-            background: #00bcd4;
-            color: white;
-            padding: 10px 20px;
-            margin: 10px 0;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        .btn:hover {
-            background: #0097a7;
-        }
-        .project, .experience, .skills {
-            margin-bottom: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #1e1e2f;
-            color: #fff;
-            margin-top: 20px;
-        }
-        ul.skills-list, .project ul, .experience ul {
-            padding-left: 20px;
-        }
-        a {
-            color: #00bcd4;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pavan's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <h1>Pavan Sundar Reddy Guthikonda</h1>
-        <p>Data Science Intern | Finance Professional | AI & Cloud Enthusiast</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>Results-driven Data Science Intern with hands-on experience in machine learning, time-series data analysis, and statistical modeling. Proficient in Python, SQL, and cloud platforms including AWS and Azure. Adept at building predictive models, and deploying solutions using microservices in containerized environments.</p>
-    </section>
-
-    <section id="projects" class="container">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>WanderTales – AI-Powered Travel Recommendation & Storytelling Platform</h3>
-            <ul>
-                <li>Used FastAPI, Hugging Face, Google APIs, and Streamlit for rich, adaptive travel storytelling.</li>
-            </ul>
-        </div>
-        <div class="project">
-            <h3>MedQueryPro – AI Medical Assistant</h3>
-            <ul>
-                <li>Real-time healthcare response system using LLMs, LLAMA models, RBAC, and AES encryption.</li>
-            </ul>
-        </div>
-        <div class="project">
-            <h3>Anime Recommendation System</h3>
-            <ul>
-                <li>Analyzed 3.4M+ user data using PySpark and Tableau for insights and collaborative filtering.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="experience" class="container">
-        <h2>Experience</h2>
-        <div class="experience">
-            <h3>Software Engineer – Impelsys Pvt. Ltd</h3>
-            <ul>
-                <li>Led RQI1Stop healthcare app refactoring and ETL process improvements.</li>
-                <li>Integrated AWS services, optimized MySQL queries, and supported scalable deployment.</li>
-            </ul>
-        </div>
-        <div class="experience">
-            <h3>Programmer Analyst Trainee – Cognizant</h3>
-            <ul>
-                <li>Automated functional test scripts with UFT, ensured high business logic reliability.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="skills" class="container">
-        <h2>Technical Skills</h2>
-        <ul class="skills-list">
-            <li><strong>Languages:</strong> Python, C++, Java, SQL, R, JavaScript, PHP, HTML, CSS, Shell</li>
-            <li><strong>Data Science/ML:</strong> Scikit-learn, TensorFlow, PyTorch, Keras, Transformers</li>
-            <li><strong>Big Data:</strong> PySpark, Kafka, Hadoop, HDFS</li>
-            <li><strong>Databases:</strong> MySQL, SQLite, MongoDB, HBase, NoSQL</li>
-            <li><strong>Cloud:</strong> AWS, Azure, GCP, Databricks</li>
-            <li><strong>Dev Tools:</strong> Git, Docker, Kubernetes, CI/CD, REST APIs</li>
-            <li><strong>Visualization:</strong> Tableau, Power BI, Matplotlib, Seaborn</li>
-        </ul>
-    </section>
-
-    <section id="publications" class="container">
-        <h2>Publications</h2>
+  <div class="layout">
+    <aside class="sidebar">
+      <h2>Pavan<br>Guthikonda</h2>
+      <nav>
         <ul>
-            <li><a href="https://ieeexplore.ieee.org/document/10063113" target="_blank">Driver Drowsiness Detection – IEEE</a></li>
-            <li><a href="https://www.researchgate.net/publication/375605815_IoT_based_Driver_Drowsiness_Detection_and_Alerting_System_using_Haar_Cascade_and_Eye_Aspect_Ratio_Algorithms" target="_blank">IoT-based Drowsiness Detection – ResearchGate</a></li>
-            <li><a href="https://www.ijrte.org/portfolio-item/D7847118419/" target="_blank">CKD Assessment – IJRTE</a></li>
+          <li><a href="#work">Latest Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
         </ul>
-    </section>
+      </nav>
+    </aside>
 
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p><strong>Email:</strong> <a href="mailto:psrg99official@gmail.com">psrg99official@gmail.com</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/guthikonda-pavan-sundar-reddy-709920223/" target="_blank">linkedin.com/in/pavan-guthikonda</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/pavan7357" target="_blank">github.com/pavan7357</a></p>
-        <a class="btn" href="./resume.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> View Full Resume</a>
-    </section>
+    <main class="main-content">
+      <section id="work" class="project-section">
+        <div class="project">
+          <img src="images/travel-ai.jpg" alt="AI Travel Assistant" />
+          <div>
+            <h3>AI powered Travel Recommendation and Storytelling system</h3>
+            <p>Designed an <strong>AI-powered travel storytelling platform</strong> with a sleek <strong>Streamlit frontend</strong>, transforming trip planning into an engaging experience.</p>
+            <ul>
+              <li>🧭 <strong>Flight Recommendations:</strong> Real-time optimized routes</li>
+              <li>🎭 <strong>Immersive Narratives:</strong> Personalized AI stories</li>
+              <li>🎥 <strong>Visual Previews:</strong> Realistic travel visualizations</li>
+            </ul>
+          </div>
+        </div>
 
-    <footer>
-        <p>&copy; 2025 Pavan Sundar Reddy Guthikonda. All rights reserved.</p>
-    </footer>
+        <div class="project">
+          <img src="images/nas-system.jpg" alt="NAS System" />
+          <div>
+            <h3>Web based NAS Management System</h3>
+            <p>Engineered a secure NAS system with <strong>role-based access control</strong> and an intuitive Linux-based interface.</p>
+            <ul>
+              <li>🔐 <strong>Granular Access:</strong> Role-based Python + MySQL backend</li>
+              <li>💾 <strong>Efficient File Flow:</strong> Linux-based NAS server</li>
+              <li>🌐 <strong>Web UI:</strong> Flask, HTML, CSS</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h3>Skills</h3>
+        <p>Python | SQL | Flask | Streamlit | FastAPI | PySpark | Tableau | Azure | AWS | Docker</p>
+      </section>
+
+      <section id="achievements">
+        <h3>Achievements</h3>
+        <p>🎓 IEEE Publication | 🧠 Hackathon Winner | 📚 CKD AI Classifier Paper | 🏅 UMKC Dean's List</p>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
