@@ -1,55 +1,50 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f5f8fa;
-    color: #333;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem;
-  }
-  
-  .section-title {
-    font-size: 2rem;
-    text-align: center;
-    color: #2a3f7d;
-    margin-bottom: 2rem;
-    font-weight: 700;
-  }
-  
-  .about-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  
-  .about-wrapper__info {
-    flex: 1;
-    padding: 1rem;
-  }
-  
-  .about-wrapper__info-text {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    margin-bottom: 1.2rem;
-  }
-  
-  .cta-btn {
-    display: inline-block;
-    background-color: #2a3f7d;
-    color: white;
-    padding: 10px 20px;
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s ease-in-out;
-  }
-  
-  .cta-btn:hover {
-    background-color: #1c2f59;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9fc;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3a3a8b;
+  margin-bottom: 1.5rem;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-wrapper p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #3a3a8b;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #2a2a6e;
+}
