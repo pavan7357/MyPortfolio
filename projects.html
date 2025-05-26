@@ -5,153 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projects | Pavan Guthikonda</title>
   <link rel="icon" type="image/png" href="assets/favicon.png" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 2rem;
-    }
-
-    .section-title {
-      font-size: 2rem;
-      font-weight: bold;
-      margin-bottom: 2rem;
-      text-align: center;
-      color: #444;
-    }
-
-    .project {
-      display: flex;
-      align-items: flex-start;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 1.5rem;
-      flex-wrap: wrap;
-    }
-
-    .project-thumb {
-      width: 160px;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      flex-shrink: 0;
-    }
-
-    .project-text {
-      flex: 1;
-      min-width: 250px;
-    }
-
-    .project-text h3 {
-      margin-top: 0;
-      color: #2c3e50;
-    }
-
-    .project-text p {
-      margin: 0.5rem 0 1rem 0;
-    }
-
-    .project-text ul {
-      margin: 0;
-      padding-left: 1.2rem;
-    }
-
-    .project-text ul li {
-      margin-bottom: 0.5rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 0;
-      background-color: #f0f0f5;
-      margin-top: 2rem;
-    }
-
-    footer p {
-      margin: 0.5rem 0;
-    }
-
-    footer a {
-      text-decoration: none;
-      color: #0077cc;
-    }
-
-    @media (max-width: 600px) {
-      .project {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .project-thumb {
-        width: 100%;
-        height: auto;
-      }
-    }
-  </style>
 </head>
-
 <body>
   <section id="projects">
     <div class="container">
       <h2 class="section-title">Projects</h2>
 
       <div class="project">
-        <img src="https://via.placeholder.com/160x100?text=WanderTales" alt="WanderTales Thumbnail" class="project-thumb" />
+        <img src="images/WanderTales.png" alt="WanderTales Thumbnail" class="project-thumb" />
         <div class="project-text">
           <h3>WanderTales – AI-Powered Travel Recommendation & Storytelling Platform</h3>
           <p>
             AI-based assistant that delivers real-time travel narratives using GPT + RAG + live data integrations.
           </p>
           <ul>
-            <li>✓ FastAPI microservices + Hugging Face Transformers</li>
-            <li>✓ RAG pipeline reduced hallucination by 35%</li>
-            <li>✓ APIs: Google Places, Amadeus, SerpAPI, OpenWeatherMap</li>
-            <li>✓ Streamlit frontend for storytelling experiences</li>
-            <li>✓ Used DiffCut and LLM-Check (NeurIPS 2024)</li>
-            <li>✓ 🥈 2nd place in 2025 Spring Research-a-thon</li>
+            <li>FastAPI microservices + Hugging Face Transformers</li>
+            <li>RAG pipeline reduced hallucination by 35%</li>
+            <li>APIs: Google Places, Amadeus, SerpAPI, OpenWeatherMap</li>
+            <li>Streamlit frontend for storytelling experiences</li>
+            <li>Used DiffCut and LLM-Check (NeurIPS 2024)</li>
+            <li>🥈 2nd place in 2025 Spring Research-a-thon</li>
           </ul>
         </div>
       </div>
 
       <div class="project">
-        <img src="https://via.placeholder.com/160x100?text=MedQueryPro" alt="MedQueryPro Thumbnail" class="project-thumb" />
+        <img src="images\MedQueryPro.png" alt="MedQueryPro Thumbnail" class="project-thumb" />
         <div class="project-text">
           <h3>MedQueryPro – AI Medical Assistant</h3>
           <p>
             Real-time medical Q&A system with appointment scheduling, security, and admin dashboards.
           </p>
           <ul>
-            <li>✓ LLAMA 3.2B fine-tuned for medical QA</li>
-            <li>✓ JWT + SQLite-based RBAC system</li>
-            <li>✓ HTTPS + AES for HIPAA & GDPR compliance</li>
-            <li>✓ Admin dashboards & risk mitigation logic</li>
-            <li>✓ Validation for symptoms, drugs, high-risk inputs</li>
+            <li>LLAMA 3.2B fine-tuned for medical QA</li>
+            <li>JWT + SQLite-based RBAC system</li>
+            <li>HTTPS + AES for HIPAA & GDPR compliance</li>
+            <li>Admin dashboards & risk mitigation logic</li>
+            <li>Validation for symptoms, drugs, high-risk inputs</li>
           </ul>
         </div>
       </div>
 
       <div class="project">
-        <img src="https://via.placeholder.com/160x100?text=Anime+Reco" alt="Anime Recommendation Thumbnail" class="project-thumb" />
+        <img src="images\AnimeReco.png" alt="Anime Recommendation Thumbnail" class="project-thumb" />
         <div class="project-text">
           <h3>Anime Recommendation System – Data Analysis & Recommendation Engine</h3>
           <p>
             Built a recommender system for 3.4M+ users using PySpark, MLlib, Tableau, and collaborative filtering.
           </p>
           <ul>
-            <li>✓ ETL pipeline with HDFS, PySpark, Parquet</li>
-            <li>✓ MLlib improved accuracy by 25%</li>
-            <li>✓ 10+ Tableau dashboards for behavioral insights</li>
-            <li>✓ Time-series viewership prediction</li>
-            <li>✓ Documented analytics pipeline for reuse</li>
+            <li>ETL pipeline with HDFS, PySpark, Parquet</li>
+            <li>MLlib improved accuracy by 25%</li>
+            <li>10+ Tableau dashboards for behavioral insights</li>
+            <li>Time-series viewership prediction</li>
+            <li>Documented analytics pipeline for reuse</li>
           </ul>
         </div>
       </div>

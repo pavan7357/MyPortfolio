@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f5f8fc;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #2a3f7d;
+  margin-bottom: 2rem;
+}
+
+.pub {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #1c2f59;
+}
+
+.pub .authors {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.3rem 0;
+}
+
+.pub .venue {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.pub p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f0f0f5;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0077cc;
+}

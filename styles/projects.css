@@ -1,48 +1,96 @@
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f5f8fc;
-    color: #333;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem 1.5rem;
-  }
-  
-  .section-title {
-    text-align: center;
-    font-size: 2rem;
-    color: #2a3f7d;
-    margin-bottom: 2rem;
-  }
-  
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f8fc;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2a3f7d;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.project {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.project-thumb {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.project-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.project-text h3 {
+  margin-top: 0;
+  color: #1c2f59;
+  font-size: 1.4rem;
+}
+
+.project-text p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0.5rem 0 1rem;
+}
+
+.project-text ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.project-text ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f0f0f5;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+@media (max-width: 600px) {
   .project {
-    background: white;
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .project h3 {
-    color: #1c2f59;
-    font-size: 1.4rem;
-    margin-top: 0;
+
+  .project-thumb {
+    width: 100%;
+    height: auto;
   }
-  
-  .project p {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    margin: 0.5rem 0 1rem;
-  }
-  
-  .project ul {
-    padding-left: 1.2rem;
-  }
-  
-  .project ul li {
-    margin-bottom: 0.5rem;
-  }
-  
+}
